@@ -356,13 +356,16 @@ END
 	
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
+        echo "------------------ <b>Configuration Setup Server</b> ------------------"
+        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
+        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
+        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
+        echo "----------------------------------------------------------------"
 	echo ""
 	echo "Donate via TrueMoney Wallet : 097-206-5255"
 	echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
+	echo ""
 	echo "IP Server : $IP"
 	echo "Port Server : $PORT"
 	if [[ "$PROTOCOL" = 'udp' ]]; then
