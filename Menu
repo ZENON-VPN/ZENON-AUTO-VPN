@@ -565,7 +565,7 @@ if [[ -e /usr/local/bin/speedtest ]]; then
 	clear
 	speedtest --share
 elif [[ ! -e /usr/local/bin/speedtest ]]; then
-	wget -O /usr/local/bin/speedtest "https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Speedtest"
+	wget -O /usr/local/bin/speedtest "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Speedtest"
 	chmod +x /usr/local/bin/speedtest
 	clear
 	speedtest --share
@@ -821,7 +821,7 @@ exit
 
 if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 	apt-get install python
-	wget -O /usr/local/bin/Banwidth-Per-Client "https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Banwidth-Per-Client"
+	wget -O /usr/local/bin/Banwidth-Per-Client "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Banwidth-Per-Client"
 	chmod +x /usr/local/bin/Banwidth-Per-Client
 	clear
 	echo ""
@@ -1365,10 +1365,10 @@ esac
 	0) # ==================================================================================================================
 
 rm -f /usr/local/bin/menu
-wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Menu"
+wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Menu"
 chmod +x /usr/local/bin/menu
 rm -f /usr/local/bin/Auto-Delete-Client 
-wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Auto-Delete-Client"
+wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Auto-Delete-Client"
 chmod +x /usr/local/bin/Auto-Delete-Client
 menu
 
