@@ -350,7 +350,7 @@ END
 	fi
 
 
-	wget -O /usr/local/bin/menu "https://www.zenon-vpn.ml/auto_vpn/Menu"
+	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Menu"
 	chmod +x /usr/local/bin/menu
 	apt-get -y install vnstat
 	
