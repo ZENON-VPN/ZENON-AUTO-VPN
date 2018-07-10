@@ -1,7 +1,7 @@
 # Script Installation
 # OpenVPN, Pritunl, Proxy, SSH Dropbear, Web Panel
 
-- wget https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Install
+- wget https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Install
 - chmod +x Install
 - bash Install
 
