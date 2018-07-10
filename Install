@@ -1050,7 +1050,7 @@ fi
 	0) # ==================================================================================================================
 
 rm -rf Install
-wget https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Install && chmod +x Install && zenon Install
+wget https://raw.githubusercontent.com/ekkachai2541/ZENON-AUTO-VPN/master/Install && chmod +x Install && bash Install
 
 	;;
 
@@ -1061,7 +1061,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
 	echo "Check Thai" >> /usr/local/bin/Check-Thai
 fi
-zenon Install
+bash Install
 	;;
 
 esac
