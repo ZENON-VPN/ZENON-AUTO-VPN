@@ -1,5 +1,5 @@
 # Script Installation VPN
-# OpenVPN, Pritunl, Proxy, SSH Dropbear, Web Panel
+# OpenVPN, Pritunl, Proxy, SSH Dropbear
 
 - ติดตั้ง
 
