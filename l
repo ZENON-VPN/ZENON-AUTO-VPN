@@ -162,6 +162,13 @@ exit 0' > $RCLOCAL
 
 	EXTERNALIP=$(wget -4qO- "http://whatismyip.akamai.com/")
 	if [[ "$IP" != "$EXTERNALIP" ]]; then
+			echo ""
+        echo "------------------ <b>Configuration Setup Server</b> ------------------"
+        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
+        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
+        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
+        echo "----------------------------------------------------------------"
+		echo ""
 		echo ""
 		echo "ตรวจพบเบื้องหลังเซิฟเวอร์ของคุณเป็น Network Addrsss Translation (NAT)"
 		echo "NAT คืออะไร ? : http://www.greatinfonet.co.th/15396685/nat"
@@ -234,7 +241,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>Source by Mnm Ami | Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
+	echo "<pre>Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -355,15 +362,13 @@ END
 	apt-get -y install vnstat
 	
 	clear
-	echo ""
+		echo ""
         echo "------------------ <b>Configuration Setup Server</b> ------------------"
         echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
         echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
         echo "                <b>Donate : TrueWallet :097-206-525</b>                "
         echo "----------------------------------------------------------------"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+		echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo ""
 	echo "IP Server : $IP"
