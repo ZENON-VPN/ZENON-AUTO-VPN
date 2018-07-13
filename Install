@@ -88,7 +88,7 @@ NC='\033[0m'
     echo "#Donate : TrueWallet : 097-206-525"
     echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
+	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY}ZENON-AUTO-VPN${NC}"
 	echo ""
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		echo -e "|${GRAY} 1${NC}| ถอนการติดตั้ง OPENVPN ที่ควบคุมการใช้งานผ่านเทอร์มินอล ${GREEN} ✔   ${NC}"
@@ -120,7 +120,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	read -p "เลือกหัวข้อฟังก์ชั่นที่ต้องการใช้งาน : " FUNCTIONSCRIPT
 
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "FUNCTION SCRIPT ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
+	echo -e "FUNCTION SCRIPT ${GRAY}ZENON-AUTO-VPN${NC}"
 	echo ""
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		echo -e "|${GRAY} 1${NC}| REMOVE OPENVPN TERMINAL CONTROL ${GREEN} ✔   ${NC}"
@@ -245,7 +245,17 @@ if [[ -e /etc/openvpn/server.conf ]]; then
 
 else
 	clear
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	read -p "IP Server : " -e -i $IP IP
 	read -p "Port Server : " -e -i 1194 PORT
 	read -p "Port Proxy : " -e -i 8080 PROXY
@@ -413,7 +423,17 @@ exit 0' > $RCLOCAL
 
 	EXTERNALIP=$(wget -4qO- "http://whatismyip.akamai.com/")
 	if [[ "$IP" != "$EXTERNALIP" ]]; then
-		echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 		echo "ตรวจพบเบื้องหลังเซิฟเวอร์ของคุณเป็น Network Addrsss Translation (NAT)"
 		echo "NAT คืออะไร ? : http://www.greatinfonet.co.th/15396685/nat"
 		echo ""
@@ -629,8 +649,6 @@ fi
     echo ""                                        
     echo "#BY FB : Ekkachai Chompoowiset"
     echo "#Donate : TrueWallet : 097-206-525"
-    echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
 	echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo "IP Server : $IP"

@@ -234,7 +234,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>by Ekkachai Chompoowiset | Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
+	echo "<pre>BY FB : Ekkachai Chompoowiset | Donate : TrueWallet : 097-206-525</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
