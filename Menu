@@ -156,7 +156,7 @@ if [[ $CHECKSYSTEM ]]; then
 		echo "หมดอายุในวันที่ : $EXP"
 		echo ""
 		echo "IP : $IP"
-		echo "Port : 22"
+		echo "Port : 22,443"
 		echo "Proxy Port : $PROXY"
 		exit
 	else
@@ -662,11 +662,17 @@ RXTOTAL=$(vnstat -i $INTERFACE | grep "rx:" | awk '{print $2" "substr ($9, 1, 1)
 TXTOTAL=$(vnstat -i $INTERFACE | grep "tx:" | awk '{print $5" "substr ($9, 1, 1)}')
 
 clear
-echo ""
-echo "  (\_(\ "
-echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-echo "  (,(”)(”) °.¸¸.•"
-echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "แบนด์วิดท์ ${GRAY}ZENON-AUTO-VPN${NC}"
 	echo ""
