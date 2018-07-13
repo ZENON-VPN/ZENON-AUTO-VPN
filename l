@@ -234,7 +234,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>Source by Mnm Ami | Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
+	echo "<pre>by Ekkachai Chompoowiset | Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -355,15 +355,17 @@ END
 	apt-get -y install vnstat
 	
 	clear
-	echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo ""
 	echo "IP Server : $IP"

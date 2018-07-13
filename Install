@@ -30,11 +30,17 @@ if [[ -e /etc/debian_version ]]; then
 	RCLOCAL='/etc/rc.local'
 
 	if [[ "$VERSION_ID" != 'VERSION_ID="7"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="8"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="9"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="14.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="16.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="17.04"' ]]; then
-		echo ""
-		echo "  (\_(\ "
-		echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-		echo "  (,(”)(”) °.¸¸.•"
-		echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 		echo "เวอร์ชั่น OS ของคุณเป็นเวอร์ชั่นที่ยังไม่รองรับ"
 		echo "สำหรับเวอร์ชั่นที่รองรับได้ จะมีดังนี้..."
 		echo ""
@@ -44,11 +50,17 @@ if [[ -e /etc/debian_version ]]; then
 		exit
 	fi
 else
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "OS ที่คุณใช้ไม่สามารถรองรับได้กับสคริปท์นี้"
 	echo "สำหรับ OS ที่รองรับได้ จะมีดังนี้..."
 	echo ""
@@ -64,11 +76,17 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 # Menu
-echo ""
-echo "  (\_(\ "
-echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-echo "  (,(”)(”) °.¸¸.•"
-echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
 	echo ""
@@ -467,7 +485,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>Source by Mnm Ami | Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
+	echo "<pre>by Ekkachai Chompoowiset | Donate via TrueMoney Wallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -601,11 +619,17 @@ fi
 		;;
 	esac
 	clear
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "Donate via TrueMoney Wallet : 097-206-5255"
 	echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
@@ -735,13 +759,17 @@ fi
 
 if [[ "$NoSquid" = 'N' ]]; then
 	clear
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "Pritunl .....Install Finish."
 	echo "No Proxy"
 	echo ""
@@ -846,13 +874,17 @@ END
 fi
 
 clear
-echo ""
-echo "  (\_(\ "
-echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-echo "  (,(”)(”) °.¸¸.•"
-echo ""
-echo "Donate via TrueMoney Wallet : 097-206-5255"
-echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 echo "Pritunl, Squid Proxy .....Install Finish."
 echo "IP Proxy : $IP"
 echo "Port Proxy : $PROXY"
@@ -879,13 +911,17 @@ elif [[ ! -e /etc/default/dropbear ]]; then
 	/etc/init.d/dropbear restart
 	PORTSSH=$(grep '^Port ' /etc/ssh/sshd_config | cut -d " " -f 2)
 	clear
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "SSH Dropbear .....Install Finish."
 	echo "IP Addrsss : $IP"
 	echo "Port SSH : $PORTSSH"
@@ -916,25 +952,33 @@ fi
 if [[ -e /etc/squid3/squid.conf ]]; then
 	apt-get -y remove --purge squid3
 	clear
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "Squid Proxy .....Removed."
 	exit
 elif [[ -e /etc/squid/squid.conf ]]; then
 	apt-get -y remove --purge squid
 	clear
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "Squid Proxy .....Removed."
 	exit
 fi
@@ -980,13 +1024,17 @@ END
 		/etc/init.d/squid3 restart
 	fi
 	clear
-	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
-	echo "  (,(”)(”) °.¸¸.•"
-	echo ""
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
@@ -1028,16 +1076,17 @@ END
 	sed -i $IP2 /etc/squid/squid.conf;
 	/etc/init.d/squid restart
 	clear
-	echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-	echo ""
-	echo "Source by Ekkachai Chompoowiset"
-	echo "Donate via TrueMoney Wallet : 097-206-5255"
-	echo ""
+    echo ""
+    echo "███████╗███████╗███╗   ██╗ ██████╗ ███╗   ██╗"
+    echo "╚══███╔╝██╔════╝████╗  ██║██╔═══██╗████╗  ██║"
+    echo "  ███╔╝ █████╗  ██╔██╗ ██║██║   ██║██╔██╗ ██║"
+    echo " ███╔╝  ██╔══╝  ██║╚██╗██║██║   ██║██║╚██╗██║"
+    echo "███████╗███████╗██║ ╚████║╚██████╔╝██║ ╚████║"
+    echo "╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
+    echo ""                                        
+    echo "#BY FB : Ekkachai Chompoowiset"
+    echo "#Donate : TrueWallet : 097-206-525"
+    echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
