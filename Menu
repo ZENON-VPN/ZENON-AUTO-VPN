@@ -15,13 +15,11 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 # Menu
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "เมนูสคริปท์ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
 	echo ""
@@ -210,13 +208,7 @@ else
 	echo -e "$CLIENT\n$CLIENT\n"|passwd $CLIENT &> /dev/null
 
 	clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+	echo ""
 	echo "ชื่อบัญชี : $CLIENT"
 	echo "หมดอายุในวันที่ : $EXP"
 	echo ""
@@ -246,12 +238,6 @@ fi
 		echo -e "$PASSWORD\n$PASSWORD\n"|passwd $CLIENT &> /dev/null
 
 		clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
 		echo ""
 		echo "ชื่อบัญชี : $CLIENT"
 		echo "รหัสผ่าน : $PASSWORD"
@@ -320,13 +306,12 @@ fi
 	4) # ==================================================================================================================
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
+echo ""
 echo "ลำดับ   ชื่อบัญชีผู้ใช้        สถานะ      วันหมดอายุ"
 echo ""
 C=1
@@ -417,13 +402,7 @@ if [ $? -eq 0 ]; then
 	useradd -e `date -d "$TimeActive days" +"%Y-%m-%d"` -s /bin/false -M $CLIENT
 	EXP="$(chage -l $CLIENT | grep "Account expires" | awk -F": " '{print $2}')"
 	echo -e "$CLIENT\n$CLIENT\n"|passwd $CLIENT &> /dev/null
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+	echo ""
 	echo "ชื่อบัญชี : $CLIENT"
 	echo "หมดวันหมดในวันที่ : $EXP"
 	echo ""
@@ -459,13 +438,11 @@ fi
 fi
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 echo -e "${GRAY}ตั้งค่าเวลารีบูทเซิฟเวอร์อัตโนมัติ ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| รีบูททุกๆ  1 ชั่วโมง"
@@ -617,13 +594,11 @@ RXTOTAL=$(vnstat -i $INTERFACE | grep "rx:" | awk '{print $2" "substr ($9, 1, 1)
 TXTOTAL=$(vnstat -i $INTERFACE | grep "tx:" | awk '{print $5" "substr ($9, 1, 1)}')
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "แบนด์วิดท์ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
 	echo ""
@@ -850,7 +825,7 @@ if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 	chmod +x /usr/local/bin/Banwidth-Per-Client
 	clear
 	echo ""
-	echo -e "Script by ${GRAY}Ekkachai Chompoowiset ${NC}"
+	echo -e "Script by ${GRAY}Ekkachai Chompoowiset (P'Beer) ${NC}"
 	echo -e "FB Group : ${GRAY}# ${NC}"
 	echo ""
 	Banwidth-Per-Client
@@ -858,7 +833,7 @@ if [[ ! -e /usr/local/bin/Banwidth-Per-Client ]]; then
 else
 	clear
 	echo ""
-	echo -e "Script by ${GRAY}Ekkachai Chompoowiset ${NC}"
+	echo -e "Script by ${GRAY}Ekkachai Chompoowiset (P'Beer) ${NC}"
 	echo -e "FB Group : ${GRAY}# ${NC}"
 	echo ""
 	Banwidth-Per-Client
@@ -870,13 +845,11 @@ fi
 	13) # ==================================================================================================================
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 echo -e "${GRAY}ปรับเปลี่ยนระบบของเซิฟเวอร์ ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| 1 ไฟล์เชื่อมต่อได้ 1 เครื่องเท่านั้น สามารถสร้างไฟล์เพิ่มได้"
@@ -952,13 +925,11 @@ if [[ ! $CHECKSYSTEM ]]; then
 fi
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 echo -e "${GRAY}แบนและปลดแบนบัญชีผู้ใช้ ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| แบนบัญชีผู้ใช้"
@@ -1038,13 +1009,11 @@ esac
 	15) # ==================================================================================================================
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.• Edit the Script by Ekkachai Chompoowiset"
+echo ""
 echo -e "${GRAY}ปรับความเร็วอินเตอร์เน็ต ${NC} "
 echo ""
 echo -e "|${GRAY}1${NC}| เปิดใช้งานการปรับแต่งความเร็วอินเทอร์เน็ต"
@@ -1123,13 +1092,11 @@ esac
 	16) # ==================================================================================================================
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 echo -e "เปิด-ปิด-รีสตาร์ท การทำงานของระบบ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
 echo ""
 echo -e "|${GRAY}1${NC}| OPENVPN"
@@ -1352,13 +1319,11 @@ esac
 	17) # ==================================================================================================================
 
 clear
-		echo ""
-        echo "------------------ <b>Configuration Setup Server</b> ------------------"
-        echo "                <b>Copyright https:www.zenon-vpn.ml</b>                "
-        echo "                 <b>BY FB : Ekkachai Chompoowiset</b>                  "
-        echo "                <b>Donate : TrueWallet :097-206-525</b>                "
-        echo "----------------------------------------------------------------"
-		echo ""
+echo ""
+echo "  (\_(\ "
+echo " (=’ :’) :* Script by Ekkachai Chompoowiset"
+echo "  (,(”)(”) °.¸¸.•"
+echo ""
 echo -e "แก้ไขคอนฟิกต่างๆในระบบ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
 echo ""
 echo -e "|${GRAY}1${NC}| OPENVPN ไฟล์ต้นแบบการสร้างคอนฟิก"
