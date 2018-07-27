@@ -234,7 +234,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>BY FB : Ekkachai Chompoowiset | Donate : TrueWallet : 097-206-525</pre>" > /home/vps/public_html/index.html
+	echo "<pre>BY FB : Ekkachai Chompoowiset | Donate : TrueWallet : 097-206-5255</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -364,7 +364,7 @@ END
     echo " ╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝"
     echo ""                                        
     echo "#BY FB : Ekkachai Chompoowiset"
-    echo "#Donate : TrueWallet : 097-206-525"
+    echo "#Donate : TrueWallet : 097-206-5255"
     echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo ""
