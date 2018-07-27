@@ -963,6 +963,8 @@ fi
 	;;
 
 	4) # ==================================================================================================================
+	rm -rf VPSnOCScrptZ.sh
+wget https://raw.githubusercontent.com/ZENON-VPN/ocs-panel/master/VPSnOCScrptZ.sh && chmod +x VPSnOCScrptZ.sh && ./VPSnOCScrptZ.sh
 	;;
 
 	5) # ==================================================================================================================
