@@ -18,7 +18,7 @@ wget https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Install &
 __________________________________________________
 **NOTE**
 
- -ZENON-VPM.ML-
+ -ZENON-VPM.NET-
  
  **TimeZone**   :  Thailand
 ___________________________________________________
