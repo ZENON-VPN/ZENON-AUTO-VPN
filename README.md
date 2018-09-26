@@ -15,6 +15,11 @@ _________________________________________________
 wget https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Install && chmod +x Install && bash Install
 ```
 
+- **รหัสผ่านติดต้ง**
+```
+zenon
+```
+
 __________________________________________________
 **NOTE**
 
