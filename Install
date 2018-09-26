@@ -88,9 +88,9 @@ clear
                                       
                            Thank You For Choice TH
 
-                                   SCRIPT V.1 VIP
+                              SCRIPT V.1 VIP
                                    
-                           ( ใส่รหัสผ่านติดตั้ง... )"
+                               ( ใส่รหัสผ่านติดตั้ง... )"
 			
 	echo ""
     read -p "โปรดใส่รหัสสำหรับติดตั้งสคลิปนี้.. : " passwds
