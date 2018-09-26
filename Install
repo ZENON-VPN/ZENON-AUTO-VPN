@@ -190,7 +190,7 @@ echo " FB : https://www.facebook.com/ekkachai.2541"
 echo ""
 echo ""
 rm /usr/bin/pass
-rm Install.sh
+rm Install
 exit
 
 fi
