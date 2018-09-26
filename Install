@@ -86,12 +86,12 @@ clear
                   .        Name  : Ekkachai Chompoowiset   .
                   ..........................................   
                                       
-                           Thank You For Choice TH"
+                           Thank You For Choice TH
+
+                                   SCRIPT V.1 VIP
+                                   
+                           ( ใส่รหัสผ่านติดตั้ง... )"
 			
-	echo ""
-	echo "SCRIPT V.1 VIP"
-	echo ""
-	echo " ( ใส่รหัสผ่านติดตั้ง... )"
 	echo ""
     read -p "โปรดใส่รหัสสำหรับติดตั้งสคลิปนี้.. : " passwds
 wget -q -O /usr/bin/pass www.zenon-vpn.net/www.zenon-vpn.net.txt
