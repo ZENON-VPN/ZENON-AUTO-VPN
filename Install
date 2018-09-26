@@ -69,7 +69,45 @@ else
 	echo ""
 	exit
 	
-           
+	fi
+cd
+clear
+ echo ""
+          echo -e "\e[031;1m     
+          
+                =============== OS-32 & 64-bit ================
+                
+                    >>>>> โปรดชำระเงินก่อนใช้สคริปต์อัตโนมัติ <<<<<
+                  ..........................................
+                  .         ราคา: 50 บาท = 1IP              .
+                  .        ***********************         .
+                  .        True Wallet Account             .
+                  .        =======================         .
+                  .        Phone : 097-206-5255            .
+                  .        Name  : Ekkachai Chompoowiset   .
+                  ..........................................   
+                                      
+                           Thank You For Choice TH"
+			
+	echo ""
+	echo -e "\e[034;1m----SCRIPT V.1 VIP"
+	echo ""
+	echo -e "\e[032;1m ( ใส่รหัสผ่านติดตั้ง... )"
+	echo ""
+read -p "๏๏๏โปรดใส่รหัสสำหรับติดตั้งสคลิปนี้.. : " passwds
+wget -q -O /usr/bin/pass www.zenon-vpn.net/www.zenon-vpn.net.txt
+if ! grep -w -q $passwds /usr/bin/pass; then
+clear
+echo ""
+echo ""
+echo " เสียใจด้วย รหัสผิด ถ้าไม่มีรหัสติดต่อแอดมินฯ"
+echo ""
+echo " FB : https://www.facebook.com/ekkachai.2541"
+echo ""
+echo ""
+rm /usr/bin/pass
+rm Install.sh
+exit
 
 fi
 
