@@ -69,14 +69,7 @@ else
 	echo ""
 	exit
 	
-	# GO TO ROOT
-cd
-
-#REGISTER CONFIG
-clear
- echo ""
-          echo -e "\e[031;1m     
-                         
+           
 
 fi
 
