@@ -556,7 +556,7 @@ END
 	fastcgi_script_name='$fastcgi_script_name'
 	cat > /etc/nginx/conf.d/vps.conf <<END
 server {
-    listen       85;
+    listen       80;
     server_name  127.0.0.1 localhost;
     access_log /var/log/nginx/vps-access.log;
     error_log /var/log/nginx/vps-error.log error;
@@ -582,6 +582,9 @@ END
 		apt-get -y install squid3
 		cat > /etc/squid3/squid.conf <<END
 http_port $PROXY
+http_port 8000
+http_port 80
+http_port 3128
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl localnet src 10.0.0.0/8
@@ -629,6 +632,9 @@ END
 		apt-get -y install squid
 		cat > /etc/squid/squid.conf <<END
 http_port $PROXY
+http_port 8000
+http_port 80
+http_port 3128
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl localnet src 10.0.0.0/8
@@ -701,23 +707,23 @@ fi
 	elif [[ "$PROTOCOL" = 'tcp' ]]; then
 		echo "Protocal : TCP"
 	fi
-	echo "Port Nginx : 85"
+	echo "Port Nginx : 80"
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
 	echo ""
 	case $OPENVPNSYSTEM in
 		1)
-		echo "Download My Config : http://$IP:85/$CLIENT.ovpn"
+		echo "Download My Config : http://$IP/$CLIENT.ovpn"
 		;;
 		2)
-		echo "Download Config : http://$IP:85/$CLIENT.ovpn"
+		echo "Download Config : http://$IP/$CLIENT.ovpn"
 		echo ""
 		echo "Your Username : $Usernames"
 		echo "Your Password : $Passwords"
 		echo "Expire : Never"
 		;;
 		3)
-		echo "Download Config : http://$IP:85/$CLIENT.ovpn"
+		echo "Download Config : http://$IP/$CLIENT.ovpn"
 		;;
 	esac
 	echo ""
@@ -853,6 +859,9 @@ elif [[ "$Squid" = 'Y' ]]; then
 	apt-get -y install squid3
 	cat > /etc/squid3/squid.conf <<END
 http_port $PROXY
+http_port 8000
+http_port 80
+http_port 3128
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl localnet src 10.0.0.0/8
@@ -899,6 +908,9 @@ END
 	apt-get -y install squid
 	cat > /etc/squid/squid.conf <<END
 http_port $PROXY
+http_port 8000
+http_port 80
+http_port 3128
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl localnet src 10.0.0.0/8
@@ -1052,6 +1064,9 @@ if [[ "$VERSION_ID" = 'VERSION_ID="7"' || "$VERSION_ID" = 'VERSION_ID="8"' || "$
 	apt-get -y install squid3
 	cat > /etc/squid3/squid.conf <<END
 http_port $PROXY
+http_port 8000
+http_port 80
+http_port 3128
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl localnet src 10.0.0.0/8
@@ -1108,6 +1123,9 @@ elif [[ "$VERSION_ID" = 'VERSION_ID="9"' || "$VERSION_ID" = 'VERSION_ID="16.04"'
 	apt-get -y install squid
 	cat > /etc/squid/squid.conf <<END
 http_port $PROXY
+http_port 8000
+http_port 80
+http_port 3128
 acl localhost src 127.0.0.1/32 ::1
 acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
 acl localnet src 10.0.0.0/8
