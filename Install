@@ -325,7 +325,7 @@ else
 	echo -e " |${GRAY}2${NC}| 1 ไฟล์เชื่อมต่อได้หลายเครื่อง แต่ต้องใช้ชื่อบัญชีและรหัสผ่านเพื่อใช้เชื่อมต่อ"
 	echo -e " |${GRAY}3${NC}| 1 ไฟล์เชื่อมต่อได้ไม่จำกัดจำนวนเครื่อง"
 	echo ""
-	read -p "Server System : " -e OPENVPNSYSTEM
+	read -p "Server System : " -e -i 2 OPENVPNSYSTEM
 	echo ""
 	read -p "Server Name: " -e CLIENT
 	echo ""
