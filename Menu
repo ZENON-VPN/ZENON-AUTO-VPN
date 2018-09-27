@@ -125,7 +125,7 @@ case $MENU in
 
 if [[ $CHECKSYSTEM ]]; then
 	echo ""
-	read -p "ชื่อบัญชี : " -e CLIENT
+	read -p "ชื่อบัญชีที่ต้องการสร้าง : " -e CLIENT
 
 	if [ $? -eq 0 ]; then
 		read -p "รหัสผ่าน : " -e PASSWORD
@@ -157,8 +157,7 @@ if [[ $CHECKSYSTEM ]]; then
 		echo ""
 		echo "IP : $IP"
 		echo "Port : 22,443"
-		echo "Proxy Port : $PROXY,8000,80,3128"
-		echo "ดาวน์โหลดคอนฟิก : http://$IP/$CLIENT.ovpn"
+		echo "Proxy Port : $PROXY"
 		exit
 	else
 		echo ""
@@ -177,7 +176,7 @@ if [[ $CHECKSYSTEM ]]; then
 else
 
 	echo ""
-	read -p "ชื่อบัญชี : " -e CLIENT
+	read -p "ชื่อบัญชีที่ต้องการสร้าง : " -e CLIENT
 
 	if [[ -e /etc/openvpn/easy-rsa/pki/private/$CLIENT.key ]]; then
 		echo ""
@@ -239,7 +238,7 @@ else
 	echo "ชื่อบัญชี : $CLIENT"
 	echo "หมดอายุในวันที่ : $EXP"
 	echo ""
-	echo "ดาวน์โหลดคอนฟิก : http://$IP/$RANDOMFOLDER/$CLIENT.ovpn"
+	echo "ดาวน์โหลดคอนฟิก : http://$IP:85/$RANDOMFOLDER/$CLIENT.ovpn"
 	echo ""
 	exit
 
@@ -250,7 +249,7 @@ fi
 	2) # ==================================================================================================================
 
 	echo ""
-	read -p "ชื่อบัญชี : " -e CLIENT
+	read -p "ชื่อบัญชีที่ต้องการสร้าง : " -e CLIENT
 
 	if [ $? -eq 0 ]; then
 		read -p "รหัสผ่าน : " -e PASSWORD
@@ -281,9 +280,8 @@ fi
 		echo "หมดอายุในวันที่ : $EXP"
 		echo ""
 		echo "IP : $IP"
-		echo "Port : 22,443"
-		echo "Proxy Port : $PROXY,8000,80,3128"
-		echo "ดาวน์โหลดคอนฟิก : http://$IP/$CLIENT.ovpn"
+		echo "Port : 22"
+		echo "Proxy Port : $PROXY"
 		exit
 	else
 		echo ""

@@ -242,7 +242,7 @@ END
 	fastcgi_script_name='$fastcgi_script_name'
 	cat > /etc/nginx/conf.d/vps.conf <<END
 server {
-    listen       80;
+    listen       85;
     server_name  127.0.0.1 localhost;
     access_log /var/log/nginx/vps-access.log;
     error_log /var/log/nginx/vps-error.log error;
@@ -375,7 +375,7 @@ END
 	elif [[ "$PROTOCOL" = 'tcp' ]]; then
 		echo "Protocal : TCP"
 	fi
-	echo "Port Nginx : 80"
+	echo "Port Nginx : 85"
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
 	echo ""
