@@ -574,6 +574,15 @@ server {
 }
 END
 
+# install webmin
+echo " install Webmin..."
+cd
+wget -q -O webmin-current.deb "http://www.webmin.com/download/deb/webmin-current.deb"
+dpkg -i --force-all webmin-current.deb;
+apt-get -y -f install;
+rm /root/webmin-current.deb
+service webmin restart
+
 	if [[ "$VERSION_ID" = 'VERSION_ID="7"' || "$VERSION_ID" = 'VERSION_ID="8"' || "$VERSION_ID" = 'VERSION_ID="14.04"' ]]; then
 		if [[ -e /etc/squid3/squid.conf ]]; then
 			apt-get -y remove --purge squid3
