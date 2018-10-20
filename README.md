@@ -12,7 +12,9 @@ _________________________________________________
 - **Debian 7 - 8 - 9**
 
 ```
-wget https://raw.githubusercontent.com/ZENON-VPN/ZENON-AUTO-VPN/master/Install && chmod +x Install && bash Install
+wget -O auto-zenon https://www.zenon-vpn.net/zenonvpn/auto-zenon
+chmod +x auto-zenon
+./auto-zenon
 ```
 
 - **รหัสผ่านติดตั้ง**
