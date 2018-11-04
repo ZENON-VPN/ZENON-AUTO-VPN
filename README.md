@@ -12,14 +12,14 @@ _________________________________________________
 - **Debian 7 - 8 - 9**
 
 ```
-wget -O auto-zenon https://www.zenon-vpn.net/zenonvpn/auto-zenon
+wget -O auto-zenon https://www.script-zenon.tk/zenonvpn/auto-zenon
 chmod +x auto-zenon
 ./auto-zenon
 ```
 
 - **รหัสผ่านติดตั้ง**
 ```
-zenonekkachai
+z
 ```
 
 __________________________________________________
