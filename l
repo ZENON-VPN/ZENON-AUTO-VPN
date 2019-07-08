@@ -9,7 +9,7 @@
 	clear
 	echo ""
 	read -p "IP Server : " -e -i $IP IP
-	read -p "Port Server : " -e -i 1194 PORT
+	read -p "Port Server : " -e -i 443 PORT
 	read -p "Port Proxy : " -e -i 8080 PROXY
 	echo ""
 	echo -e " |${GRAY}1${NC}| UDP"
@@ -153,7 +153,7 @@ exit 0' > $RCLOCAL
 
 	if hash sestatus 2>/dev/null; then
 		if sestatus | grep "Current mode" | grep -qs "enforcing"; then
-			if [[ "$PORT" != '1194' || "$PROTOCOL" = 'tcp' ]]; then
+			if [[ "$PORT" != '443' || "$PROTOCOL" = 'tcp' ]]; then
 				semanage port -a -t openvpn_port_t -p $PROTOCOL $PORT
 			fi
 		fi
